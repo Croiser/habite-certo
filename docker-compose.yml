@@ -1,8 +1,38 @@
 services:
+  builder:
+    image: node:22-alpine
+    container_name: habitecerto-builder
+    restart: "no"
+    volumes:
+      - dist:/out
+      - conf:/conf
+    command:
+      - sh
+      - -c
+      - |
+        set -e
+        apk add --no-cache git >/dev/null
+        rm -rf /src
+        git clone --depth 1 https://github.com/Croiser/habite-certo.git /src
+        cd /src
+        npm ci --no-audit --no-fund
+        node build.mjs
+        rm -rf /out/*
+        cp -r dist/. /out/
+        cp nginx.conf /conf/default.conf
+        echo build-ok
   site:
-    build:
-      context: https://github.com/Croiser/habite-certo.git#main
+    image: nginx:alpine
     container_name: habitecerto-site
     restart: unless-stopped
     ports:
       - "3200:80"
+    depends_on:
+      builder:
+        condition: service_completed_successfully
+    volumes:
+      - dist:/usr/share/nginx/html:ro
+      - conf:/etc/nginx/conf.d:ro
+volumes:
+  dist:
+  conf:

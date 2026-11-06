@@ -17,6 +17,7 @@
     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Averbação de construção"}},
     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Habite-se"}},
     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Construção com financiamento CAIXA"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Execução de obras"}},
     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Laudos técnicos"}},
     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Projetos arquitetônicos e de acessibilidade"}}
   ]}
