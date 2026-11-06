@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://habitecerto.dodile.com.br/sitemap.xml

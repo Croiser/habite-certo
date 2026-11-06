@@ -1,0 +1,8 @@
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Quando um imóvel é considerado irregular?","acceptedAnswer":{"@type":"Answer","text":"Quando a construção existente não corresponde à documentação: ampliações não averbadas, construção sem projeto aprovado, falta de Habite-se ou divergência de área na matrícula."}},
+{"@type":"Question","name":"Quanto tempo leva para regularizar um imóvel em Foz do Iguaçu?","acceptedAnswer":{"@type":"Answer","text":"Depende da situação do imóvel e dos prazos da prefeitura e do cartório. Após o diagnóstico informamos uma estimativa realista."}},
+{"@type":"Question","name":"Quanto custa a regularização?","acceptedAnswer":{"@type":"Answer","text":"O valor varia conforme a área, o tipo de irregularidade e as taxas municipais e cartorárias. O diagnóstico inicial é gratuito."}},
+{"@type":"Question","name":"Quais documentos eu preciso?","acceptedAnswer":{"@type":"Answer","text":"Normalmente matrícula atualizada, carnê do IPTU e documentos pessoais do proprietário."}},
+{"@type":"Question","name":"Qual a diferença entre averbação e Habite-se?","acceptedAnswer":{"@type":"Answer","text":"O Habite-se é emitido pela prefeitura e atesta a conclusão da obra conforme o projeto. A averbação registra a construção na matrícula do imóvel."}},
+{"@type":"Question","name":"Vocês atendem fora de Foz do Iguaçu?","acceptedAnswer":{"@type":"Answer","text":"Sim, atendemos Foz do Iguaçu e cidades da região oeste do Paraná."}}
+]}
