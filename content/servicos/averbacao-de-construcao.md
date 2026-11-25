@@ -10,7 +10,7 @@ h1: Averbação de construção na matrícula
 lead: Registramos a área construída na matrícula do seu imóvel para que a documentação reflita exatamente o que existe, e você possa vender, financiar ou inventariar com tranquilidade.
 waMsg: Olá! Quero averbar a construção do meu imóvel.
 faqTitle: Perguntas sobre averbação
-related: [habite-se, regularizacao-de-imoveis, financiamento-caixa]
+related: [habite-se, regularizacao-de-imoveis]
 faq:
   - q: O que é averbação de construção?
     a: É o registro, na matrícula do imóvel no Cartório de Registro de Imóveis, de que existe uma construção naquele terreno, com a respectiva área.

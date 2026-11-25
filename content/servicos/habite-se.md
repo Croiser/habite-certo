@@ -10,7 +10,7 @@ h1: Habite-se em Foz do Iguaçu
 lead: Cuidamos do protocolo, das vistorias e do acompanhamento na prefeitura até a liberação do documento que comprova que a sua obra foi concluída conforme o projeto.
 waMsg: Olá! Preciso do Habite-se do meu imóvel.
 faqTitle: Perguntas sobre o Habite-se
-related: [averbacao-de-construcao, regularizacao-de-imoveis, financiamento-caixa]
+related: [averbacao-de-construcao, regularizacao-de-imoveis]
 faq:
   - q: O que é o Habite-se?
     a: É o documento emitido pela prefeitura que atesta que a obra foi concluída de acordo com o projeto aprovado e que o imóvel pode ser utilizado.

@@ -10,7 +10,7 @@ h1: Execução e acompanhamento de obras em Foz do Iguaçu
 lead: Sua obra acompanhada de perto por engenheiro civil em cada etapa, da fundação e impermeabilização de baldrame até o acabamento e a documentação final.
 waMsg: Olá! Quero conversar sobre a execução ou acompanhamento de uma obra.
 faqTitle: Perguntas sobre execução de obras
-related: [financiamento-caixa, projetos-e-acessibilidade, habite-se]
+related: [projetos-e-acessibilidade, habite-se]
 faq:
   - q: Por que contratar engenheiro para acompanhar a execução da obra?
     a: "O acompanhamento técnico garante que a construção siga o projeto e as normas técnicas em etapas críticas, como fundação, estrutura e impermeabilização, evitando desperdício de material, retrabalho e patologias futuras."

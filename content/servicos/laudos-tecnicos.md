@@ -10,7 +10,7 @@ h1: Laudos técnicos para imóveis
 lead: Laudos de vistoria, estabilidade e patologias da construção, assinados por engenheiro civil com ART, para uso legal, bancário ou para você decidir com segurança.
 waMsg: Olá! Preciso de um laudo técnico para meu imóvel.
 faqTitle: Perguntas sobre laudos técnicos
-related: [regularizacao-de-imoveis, financiamento-caixa, habite-se]
+related: [regularizacao-de-imoveis, habite-se]
 faq:
   - q: O que é um laudo técnico?
     a: É um documento elaborado por engenheiro habilitado que descreve a situação de um imóvel ou de um problema específico, com análise técnica e conclusões.
