@@ -5,6 +5,7 @@
   "description": "Regularização de imóveis, averbação, Habite-se, projetos, laudos e execução de obras em Foz do Iguaçu e região.",
   "url": "https://habitecerto.dodile.com.br/",
   "telephone": "+55-45-99996-0366",
+  "contactPoint": {"@type":"ContactPoint","telephone":"+55-45-99996-0366","contactType":"Customer Service","areaServed":"BR"},
   "image": "https://habitecerto.dodile.com.br/og-image.png",
   "priceRange": "$$",
   "address": {"@type":"PostalAddress","addressLocality":"Foz do Iguaçu","addressRegion":"PR","addressCountry":"BR"},
@@ -12,6 +13,7 @@
   "areaServed": [{"@type":"City","name":"Foz do Iguaçu"},{"@type":"City","name":"Santa Terezinha de Itaipu"},{"@type":"City","name":"São Miguel do Iguaçu"},{"@type":"City","name":"Medianeira"},{"@type":"City","name":"Itaipulândia"},{"@type":"City","name":"Missal"}],
   "sameAs": ["https://www.instagram.com/habite.certo/"],
   "founder": {"@type":"Person","name":"Giovani","jobTitle":"Engenheiro Civil"},
+  "aggregateRating": {"@type":"AggregateRating","ratingValue":"5.0","ratingCount":"8","bestRating":"5","worstRating":"1"},
   "hasOfferCatalog": {"@type":"OfferCatalog","name":"Serviços","itemListElement":[
     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Regularização de imóveis"}},
     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Averbação de construção"}},
