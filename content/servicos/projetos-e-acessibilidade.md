@@ -54,3 +54,4 @@ Um bom projeto não é apenas um desenho bonito: ele precisa respeitar o Código
 ## Do projeto à execução
 
 Além de desenvolver e aprovar o projeto, a Habite Certo também pode acompanhar ou executar as adequações no local — como a construção ou adaptação do sanitário PCD — garantindo que a obra final fique idêntica ao que exige a norma **ABNT NBR 9050**.
+

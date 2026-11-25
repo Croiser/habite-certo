@@ -57,3 +57,4 @@ Na Habite Certo, a execução é conduzida com visão completa do imóvel, unind
 ## Da obra ao imóvel 100% regular
 
 Quem executa a obra já pensando na aprovação municipal evita exigências na vistoria final. Ao término da construção, cuidamos também do protocolo do **Habite-se** junto à Prefeitura de Foz do Iguaçu e da **averbação** na matrícula do imóvel.
+
