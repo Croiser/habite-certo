@@ -9,6 +9,11 @@ export function lpBody(s, { esc, waHref, related }) {
 <p class="lead">${esc(s.lead)}</p>
 <div class="ctas">${wa('Pedir diagnóstico gratuito')}<a class="btn btn-ghost" href="#como">Ver como funciona</a></div>
 <ul class="lp-trust"><li>${check}Engenheiro civil com ART</li><li>${check}Diagnóstico gratuito pelo WhatsApp</li><li>${check}Atendimento direto com o engenheiro</li></ul>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;margin-top:20px;font-size:.9rem;text-align:center">
+<div style="padding:12px;border-radius:8px;border:1px solid var(--blue-20)"><div style="font-size:18px;margin-bottom:4px">🏛️</div><strong>CREA-PR<br>136651/D</strong></div>
+<div style="padding:12px;border-radius:8px;border:1px solid var(--blue-20)"><div style="font-size:18px;margin-bottom:4px">⭐</div><strong>5.0<br>8 reviews</strong></div>
+<div style="padding:12px;border-radius:8px;border:1px solid var(--blue-20)"><div style="font-size:18px;margin-bottom:4px">📊</div><strong>500+<br>regularizados</strong></div>
+</div>
 </div>
 <aside class="lp-card glass">
 <span class="eyebrow">Comece agora</span>
