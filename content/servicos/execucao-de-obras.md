@@ -14,8 +14,6 @@ related: [financiamento-caixa, projetos-e-acessibilidade, habite-se]
 faq:
   - q: Por que contratar engenheiro para acompanhar a execução da obra?
     a: "O acompanhamento técnico garante que a construção siga o projeto e as normas técnicas em etapas críticas, como fundação, estrutura e impermeabilização, evitando desperdício de material, retrabalho e patologias futuras."
-  - q: Vocês atendem obras financiadas pela CAIXA?
-    a: "Sim. Executamos obras com financiamento habitacional, organizando o cronograma físico-financeiro e as medições de cada etapa para liberação dos recursos."
   - q: A obra já sai com documentação regularizada?
     a: "Sim. Como cuidamos tanto da engenharia de obra quanto da parte documental, conduzimos a execução alinhada ao projeto aprovado para facilitar a emissão do Habite-se e a averbação ao final."
   - q: Vocês fazem apenas reformas ou também obras do zero?
