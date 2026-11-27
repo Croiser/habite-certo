@@ -100,8 +100,8 @@ const today = new Date().toISOString().slice(0, 10);
   const home = rd('src/pages/home.html');
   write('index.html', layout({
     title: 'Regularização de Imóveis em Foz do Iguaçu | Habite Certo Engenharia',
-    description: 'Regularização de imóveis, averbação de construção, Habite-se, laudos e obras com financiamento CAIXA em Foz do Iguaçu e região. Engenheiro civil responsável. Diagnóstico gratuito pelo WhatsApp.',
-    keywords: 'regularização de imóveis Foz do Iguaçu, averbação de construção, habite-se Foz do Iguaçu, engenheiro civil Foz do Iguaçu, laudo técnico, financiamento CAIXA construção',
+    description: 'Regularização de imóveis, averbação de construção, Habite-se, laudos técnicos, projetos e obras em Foz do Iguaçu e região. Engenheiro civil responsável. Diagnóstico gratuito pelo WhatsApp.',
+    keywords: 'regularização de imóveis Foz do Iguaçu, averbação de construção, habite-se Foz do Iguaçu, engenheiro civil Foz do Iguaçu, laudo técnico',
     urlPath: '/', body: home, ld: [rd('src/pages/home.ld1.json'), rd('src/pages/home.ld2.json')],
   }));
   urls.push(['/', today, '1.0']);
@@ -154,7 +154,7 @@ ${crumbs(trail)}
 </div></section>
 <section class="page-body"><div class="wrap narrow"><div class="cards one">${posts.map(r => `<a class="card glass" href="/blog/${r.slug}/"><span class="tagline">${esc((r.tags && r.tags[0]) || 'Artigo')} · ${fmtDate(r.date)}</span><h3>${esc(r.title)}</h3><p>${esc(r.description)}</p><span class="more">Ler artigo →</span></a>`).join('')}</div></div></section>
 ${cta('Ficou com dúvida?', 'Fale direto com o engenheiro pelo WhatsApp e tire a sua dúvida sobre regularização.', 'Olá! Vim pelo blog e tenho uma dúvida sobre regularização de imóvel.')}`;
-  write('blog/index.html', layout({ title: 'Blog sobre Regularização de Imóveis em Foz do Iguaçu | Habite Certo', description: 'Artigos sobre regularização de imóveis, averbação, Habite-se, laudos técnicos e financiamento CAIXA, escritos por engenheiro civil de Foz do Iguaçu.', urlPath: '/blog/', body, ld: [breadcrumbLd(trail)] }));
+  write('blog/index.html', layout({ title: 'Blog sobre Regularização de Imóveis em Foz do Iguaçu | Habite Certo', description: 'Artigos sobre regularização de imóveis, averbação, Habite-se, laudos técnicos e obras, escritos por engenheiro civil de Foz do Iguaçu.', urlPath: '/blog/', body, ld: [breadcrumbLd(trail)] }));
   urls.push(['/blog/', today, '0.8']);
   const items = posts.map(r => `<item><title>${esc(r.title)}</title><link>${SITE}/blog/${r.slug}/</link><guid>${SITE}/blog/${r.slug}/</guid><pubDate>${new Date(r.date).toUTCString()}</pubDate><description>${esc(r.description)}</description></item>`).join('');
   write('blog/feed.xml', `<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Blog Habite Certo</title><link>${SITE}/blog/</link><description>Regularização de imóveis em Foz do Iguaçu</description><language>pt-BR</language>${items}</channel></rss>`);

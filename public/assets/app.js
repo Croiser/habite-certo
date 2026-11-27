@@ -18,9 +18,9 @@ document.querySelectorAll('[data-count]').forEach(el => co.observe(el));
 
 // cursor glow + spotlight on service cards
 const glow = document.querySelector('.cursor-glow');
-const fine = matchMedia('(pointer:fine)').matches;
-if (!fine) glow.style.display = 'none';
-addEventListener('pointermove', e => { if (fine) { glow.style.left = e.clientX + 'px'; glow.style.top = e.clientY + 'px'; } });
+const fine = matchMedia('(pointer:fine)').matches && !matchMedia('(prefers-reduced-motion: reduce)').matches;
+if (glow && !fine) glow.style.display = 'none';
+addEventListener('pointermove', e => { if (fine && glow) { glow.style.left = e.clientX + 'px'; glow.style.top = e.clientY + 'px'; } });
 document.querySelectorAll('.svc').forEach(c => c.addEventListener('pointermove', e => {
   const r = c.getBoundingClientRect(); c.style.setProperty('--mx', (e.clientX - r.left) + 'px'); c.style.setProperty('--my', (e.clientY - r.top) + 'px');
 }));
@@ -35,8 +35,12 @@ if (fine && tilt) {
   tilt.addEventListener('pointerleave', () => tilt.style.transform = '');
 }
 
-// nav: close mobile menu on click
-document.querySelectorAll('#menu a').forEach(a => a.addEventListener('click', () => document.getElementById('menu').classList.remove('open')));
+// nav: mobile menu toggle (sem onclick inline, compatível com CSP)
+const menu = document.getElementById('menu'), mbtn = document.querySelector('.menu-btn');
+if (menu && mbtn) {
+  mbtn.addEventListener('click', () => { const o = menu.classList.toggle('open'); mbtn.setAttribute('aria-expanded', o); });
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { menu.classList.remove('open'); mbtn.setAttribute('aria-expanded', 'false'); }));
+}
 
 // quiz
 const steps = [...document.querySelectorAll('.q-step')], bar = document.getElementById('qbar'), answers = [];

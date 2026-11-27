@@ -12,13 +12,12 @@
   "geo": {"@type":"GeoCoordinates","latitude":-25.5163,"longitude":-54.5854},
   "areaServed": [{"@type":"City","name":"Foz do Iguaçu"},{"@type":"City","name":"Santa Terezinha de Itaipu"},{"@type":"City","name":"São Miguel do Iguaçu"},{"@type":"City","name":"Medianeira"},{"@type":"City","name":"Itaipulândia"},{"@type":"City","name":"Missal"}],
   "sameAs": ["https://www.instagram.com/habite.certo/"],
-  "founder": {"@type":"Person","name":"Giovani","jobTitle":"Engenheiro Civil"},
+  "founder": {"@type":"Person","name":"Giovani Geraldo da Silva","jobTitle":"Engenheiro Civil","identifier":"CREA-PR 136651/D"},
   "aggregateRating": {"@type":"AggregateRating","ratingValue":"5.0","ratingCount":"8","bestRating":"5","worstRating":"1"},
   "hasOfferCatalog": {"@type":"OfferCatalog","name":"Serviços","itemListElement":[
     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Regularização de imóveis"}},
     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Averbação de construção"}},
     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Habite-se"}},
-    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Construção com financiamento CAIXA"}},
     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Execução de obras"}},
     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Laudos técnicos"}},
     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Projetos arquitetônicos e de acessibilidade"}}
