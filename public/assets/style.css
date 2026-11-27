@@ -280,3 +280,7 @@ footer li{list-style:none;margin-bottom:6px}
   .reveal{opacity:1!important;transform:none!important}
   .cursor-glow{display:none}
 }
+
+/* logotipo oficial no topo */
+.brand img{height:48px;width:auto}
+@media (max-width:640px){.brand img{height:40px}}
